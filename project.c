@@ -16,6 +16,6 @@ int main()
  
     
     printf("Sum of A and B is: %d", sum);
+
  
-    return 0;
 }
