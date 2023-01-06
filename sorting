@@ -5,7 +5,7 @@ int main()
 {
     char str[100], chTemp;
     int i, j, len;
-    printf("Enter any string: ");
+    printf("Enter string: ");
     gets(str);
     len = strlen(str);
     for(i=0; i<len; i++)
@@ -20,7 +20,7 @@ int main()
             }
         }
     }
-    printf("\nSame string in ascending order:\n%s", str);
+    printf("\nSame string in ascending orders:\n%s", str);
     getch();
     return 0;
 }
