@@ -5,7 +5,7 @@ int main()
 {
     char str[100], chTemp;
     int i, j, len;
-    printf("Enter any string: ");
+    printf("Enter the string: ");
     gets(str);
     len = strlen(str);
     for(i=0; i<len; i++)
